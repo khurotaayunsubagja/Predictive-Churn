@@ -36,5 +36,6 @@ pg = st.navigation(
 #----RUN NAVIGATION----
 pg.run()
 
-st.logo("picture/profile.png")
+st.logo(image="picture/profile.png")
+
 st.sidebar.text("Made With ❤️ by Ayun")
