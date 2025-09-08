@@ -2,7 +2,7 @@ import streamlit as st
 
 from forms.contact import contact_form
 
-@st.experimental_dialog("Contact Me")
+@st.dialog("Contact Me")
 def show_contact_form():
     contact_form()
 
@@ -49,4 +49,5 @@ st.write(
     - 🗄️ Databases : Postgres, MySQL
     - 📈 Statistical Analysis: Hypothesis Testing, Regression, Data Cleaning
     """
+
 )
